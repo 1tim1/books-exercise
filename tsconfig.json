@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "sourceMap": true,
+      "outDir": "dist",
+      "lib": ["esnext", "dom"],
+      "pretty": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["src"]
+  }
