@@ -4,6 +4,7 @@
   "description": "Exercise for typescript with two different book routes.",
   "main": "node-dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,10 @@
   "homepage": "https://github.com/1tim1/books-exercise#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "nodemon": "^1.18.10",
     "typescript": "^3.4.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "rimraf": "^2.6.3"
+  }
 }
