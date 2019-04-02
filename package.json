@@ -1,0 +1,24 @@
+{
+  "name": "books-exercise",
+  "version": "0.0.0",
+  "description": "Exercise for typescript with two different book routes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1tim1/books-exercise.git"
+  },
+  "author": "Tim Kaiser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1tim1/books-exercise/issues"
+  },
+  "homepage": "https://github.com/1tim1/books-exercise#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.16.4",
+    "typescript": "^3.4.1"
+  }
+}
