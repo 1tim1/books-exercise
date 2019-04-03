@@ -11,10 +11,10 @@
 
 [x] typescript
 [x] tslint
-[] routes
+[x] routes
 [x] books
-[] book/:id
-[] postman collection
+[x] book/:id
+[x] postman collection
 [x] prettier (bonus)
 [] server address and port configured with .env (bonus)
 
