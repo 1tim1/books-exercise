@@ -1,41 +1,32 @@
-- https://en.wikipedia.org/wiki/Talk%3ATyped_and_untyped_languages
-- https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
-- https://github.com/Microsoft/TypeScript-Node-Starter#typescript--node
-- https://expressjs.com/
-- define book structure (json and typescript interface)
-- define your routes
-- define your postman collection
+[] start:dev (typescript)
+[x] name, decription, author. repo
+[x] start (node dist/index)
+[x] linter tslint !!
+[x] prettier
+[x] build command (from typescript src to javascript dist)
 
+[x] gitrepo
+[x] gitflow
+[x] gitingore
 
-package.json
-/ - name, decription, author. repo
- - https://docs.npmjs.com/creating-a-package-json-file
- - start:dev (typescript)
- - start (node dist/index)
- - linter tslint !!
- - prettier
- - build command (from typescript src to javascript dist)
+[x] typescript
+[x] tslint
+[] routes
+[x] books
+[] book/:id
+[] postman collection
+[x] prettier (bonus)
+[] server address and port configured with .env (bonus)
 
-gitrepo
- - gitflow
- - gitingore
+[] npm configuration
+[] npm docs
+[x] configure editor
 
-- typescript
-- tslint
-- routes
- - books
- - book/:id
-- postman collection
-- prettier (bonus)
-- server address and port configured with .env (bonus)
+# Interesting lectures:
+[] 12factor app (bearbeitet)
 
-- npm configuration
-/- configurate editor
-
-- start command for node.js 
-- start command for typescript
-
-
-# interesting lectures:
-
-- 12factor app (bearbeitet) 
+# Resources
+[] https://en.wikipedia.org/wiki/Talk%3ATyped_and_untyped_languages
+[] https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+[] https://github.com/Microsoft/TypeScript-Node-Starter#typescript-node
+[] https://expressjs.com/

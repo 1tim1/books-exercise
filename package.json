@@ -7,7 +7,8 @@
     "start": "node dist",
     "prestart": "npm run build",
     "build": "npx rimraf dist & npx tsc",
-    "lint": "tslint --fix --project ."
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "prettier": "prettier --write \"./**/*.ts\""
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,10 @@
   },
   "devDependencies": {
     "@types/node": "^11.13.0",
+    "prettier": "1.16.4",
     "rimraf": "^2.6.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.4.1"
-  }
+  },
+  "keywords": []
 }
