@@ -1,10 +1,14 @@
 {
   "name": "books-exercise",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Exercise for typescript with two different book routes.",
-  "main": "index.js",
+  "main": "src",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist",
+    "prestart": "npm run build",
+    "build": "npx rimraf dist & npx tsc",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "prettier": "prettier --write \"./**/*.ts\""
   },
   "repository": {
     "type": "git",
@@ -16,9 +20,15 @@
     "url": "https://github.com/1tim1/books-exercise/issues"
   },
   "homepage": "https://github.com/1tim1/books-exercise#readme",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.4"
+  },
   "devDependencies": {
-    "express": "^4.16.4",
+    "@types/node": "^11.13.0",
+    "prettier": "1.16.4",
+    "rimraf": "^2.6.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.4.1"
-  }
+  },
+  "keywords": []
 }

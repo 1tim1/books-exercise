@@ -1,0 +1,32 @@
+[] start:dev (typescript)
+[x] name, decription, author. repo
+[x] start (node dist/index)
+[x] linter tslint !!
+[x] prettier
+[x] build command (from typescript src to javascript dist)
+
+[x] gitrepo
+[x] gitflow
+[x] gitingore
+
+[x] typescript
+[x] tslint
+[x] routes
+[x] books
+[x] book/:id
+[x] postman collection
+[x] prettier (bonus)
+[] server address and port configured with .env (bonus)
+
+[x] npm configuration
+[x] npm docs
+[x] configure editor
+
+# Interesting lectures:
+[] 12factor app (bearbeitet)
+
+# Resources
+[x] https://en.wikipedia.org/wiki/Talk%3ATyped_and_untyped_languages
+[x] https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+[x] https://github.com/Microsoft/TypeScript-Node-Starter#typescript-node
+[x] https://expressjs.com/
