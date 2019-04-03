@@ -7,8 +7,7 @@
       "outDir": "dist",
       "lib": ["esnext", "dom"],
       "pretty": true,
-      "experimentalDecorators": true,
-      "allowSyntheticDefaultImports": true
+      "experimentalDecorators": true
     },
     "include": ["src"]
   }
