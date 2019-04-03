@@ -18,15 +18,15 @@
 [x] prettier (bonus)
 [] server address and port configured with .env (bonus)
 
-[] npm configuration
-[] npm docs
+[x] npm configuration
+[x] npm docs
 [x] configure editor
 
 # Interesting lectures:
 [] 12factor app (bearbeitet)
 
 # Resources
-[] https://en.wikipedia.org/wiki/Talk%3ATyped_and_untyped_languages
-[] https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
-[] https://github.com/Microsoft/TypeScript-Node-Starter#typescript-node
-[] https://expressjs.com/
+[x] https://en.wikipedia.org/wiki/Talk%3ATyped_and_untyped_languages
+[x] https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+[x] https://github.com/Microsoft/TypeScript-Node-Starter#typescript-node
+[x] https://expressjs.com/
