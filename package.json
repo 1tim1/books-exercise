@@ -8,7 +8,8 @@
     "prestart": "npm run build",
     "build": "npx rimraf dist & npx tsc",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "prettier": "prettier --write \"./**/*.ts\""
+    "prettier": "prettier --write \"./**/*.ts\"",
+    "tsnd": "ts-node-dev --respawn --transpileOnly src/index.ts"
   },
   "repository": {
     "type": "git",
