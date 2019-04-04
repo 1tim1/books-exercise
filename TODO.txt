@@ -1,4 +1,4 @@
-[] start:dev (typescript)
+[x] start:dev (typescript)
 [x] name, decription, author. repo
 [x] start (node dist/index)
 [x] linter tslint !!
@@ -15,12 +15,19 @@
 [x] books
 [x] book/:id
 [x] postman collection
+    [] add descriptions
 [x] prettier (bonus)
 [] server address and port configured with .env (bonus)
 
 [x] npm configuration
 [x] npm docs
 [x] configure editor
+
+http get information
+    [] success
+    [] notfound
+
+[] fix id index problem
 
 # Interesting lectures:
 [] 12factor app (bearbeitet)
