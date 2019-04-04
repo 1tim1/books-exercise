@@ -14,6 +14,7 @@
 [x] routes
 [x] books
 [x] book/:id
+    [x] fix id index problem
 [x] postman collection
     [x] add descriptions
 [x] prettier (bonus)
@@ -26,8 +27,6 @@
 http get information
     [] success
     [] notfound
-
-[] fix id index problem
 
 # Interesting lectures:
 [] 12factor app (bearbeitet)

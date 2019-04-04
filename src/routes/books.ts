@@ -1,4 +1,5 @@
 import * as express from "express";
+
 import data from "../data/books";
 
 const router = express();
@@ -8,12 +9,12 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:id", (req, res) => {
-  if (req.params.id > data.length || req.params.id < 1) {
-    res.send("This book does not exist ...");
-  } else {
-    const index = req.params.id - 1;
-    res.send(data[index]);
+  for (const i in data) {
+    if (req.params.id === `${data[i]._id}`) {
+      res.send(data[i]);
+    }
   }
+  res.send("Book not found ...");
 });
 
 export default router;
