@@ -14,8 +14,9 @@
 [x] routes
 [x] books
 [x] book/:id
+    [x] fix id index problem
 [x] postman collection
-    [] add descriptions
+    [x] add descriptions
 [x] prettier (bonus)
 [] server address and port configured with .env (bonus)
 
@@ -26,8 +27,6 @@
 http get information
     [] success
     [] notfound
-
-[] fix id index problem
 
 # Interesting lectures:
 [] 12factor app (bearbeitet)

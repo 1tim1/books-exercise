@@ -23,6 +23,11 @@ const books = [
     _id: 5,
     name: "The Hate U Give",
     price: 7.39
+  },
+  {
+    _id: "asdf",
+    name: "String Book",
+    price: 8.0
   }
 ];
 
