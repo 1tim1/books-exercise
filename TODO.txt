@@ -15,7 +15,7 @@
 [x] books
 [x] book/:id
 [x] postman collection
-    [] add descriptions
+    [x] add descriptions
 [x] prettier (bonus)
 [] server address and port configured with .env (bonus)
 
