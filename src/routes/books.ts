@@ -14,7 +14,7 @@ router.get("/:id", (req, res) => {
       res.send(data[i]);
     }
   }
-  res.send("Book not found ...");
+  res.send("Error 404: Book not found ...");
 });
 
 export default router;
