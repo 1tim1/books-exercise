@@ -42,6 +42,6 @@ http get information
 [] use .env files for environment variables https://www.npmjs.com/package/dotenv - DON’T commit it into the repo! read this https://12factor.net/
 [] add new API for GET Author by id, that return author basic information and all the books written by the author. (create multiple authors and associate different books)
 [] add ALL the CRUD methods for BOOK and AUTHOR
-[] use Mongodb instead in-memory POJO as datasource. You can follow this tutorial or find something similar, don’t implement any web-view just APIs.
+[x] use Mongodb instead in-memory POJO as datasource. You can follow this tutorial or find something similar, don’t implement any web-view just APIs.
 [] documents APIs with postman.
 [] BONUS - undestand what is an ORM and use https://mongoosejs.com/
