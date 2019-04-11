@@ -8,6 +8,4 @@ const PORT = 3000;
 
 app.use("/books", booksRouter);
 
-app.listen(PORT, () => {
-  console.log(`Server is listening on localhost:${PORT} ...`);
-});
+app.listen(PORT, () => console.log(`Server is listening on localhost:${PORT} ...`));
