@@ -1,11 +1,14 @@
 import * as express from "express";
+import * as dotenv from "dotenv";
 
 import booksRouter from "./routes/books";
 
-const app = express();
+dotenv.config();
 
-const PORT = 3000;
+const app = express();
 
 app.use("/books", booksRouter);
 
-app.listen(PORT, () => console.log(`Server is listening on localhost:${PORT} ...`));
+app.listen(process.env.PORT, () =>
+  console.log(`Server is listening on localhost:${process.env.PORT} ...`)
+);
