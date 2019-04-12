@@ -1,14 +1,18 @@
 import * as express from "express";
 
-import data from "../data/books";
+import books from "../data/books";
 
 const router = express();
 
-router.get("/", (req, res) => res.send(data));
+router.get("/", (req, res) => res.send(books));
 
 router.get("/:id", (req, res) => {
-  for (const i in data) if (req.params.id === `${data[i]._id}`) res.send(data[i]);
-  res.send("Error 404: Book not found ...");
+  const IDBook = books.find(book => {
+    if (book._id == req.params.id) {
+      return book;
+    }
+  });
+  res.send(IDBook);
 });
 
 export default router;
