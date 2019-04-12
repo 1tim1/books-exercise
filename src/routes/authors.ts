@@ -5,7 +5,7 @@ import books from "../data/books";
 
 const router = express();
 
-router.get("/", (req, res) => res.send(authors));
+router.get("/", (_req, res) => res.send(authors));
 
 router.get("/:id", (req, res) => {
   const IDAuthor = authors.find(author => {

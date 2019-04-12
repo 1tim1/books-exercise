@@ -11,6 +11,18 @@ const app = express();
 app.use("/authors", authorsRouter);
 app.use("/books", booksRouter);
 
-app.listen(process.env.PORT, () =>
-  console.log(`Server is listening on localhost:${process.env.PORT} ...`)
-);
+const PORT = process.env.PORT;
+
+switch (typeof PORT) {
+  case "number":
+    app.listen(PORT, () =>
+      console.log(`Server is listening on localhost:${PORT} ...`)
+    );
+    break;
+  case "string":
+    PORT = 3000;
+    app.listen(PORT, () =>
+      console.log(`Server is listening on localhost:${PORT} ...`)
+    );
+    break;
+}

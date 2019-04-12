@@ -4,7 +4,7 @@ import books from "../data/books";
 
 const router = express();
 
-router.get("/", (req, res) => res.send(books));
+router.get("/", (_req, res) => res.send(books));
 
 router.get("/:id", (req, res) => {
   const IDBook = books.find(book => {
