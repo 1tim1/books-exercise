@@ -11,18 +11,8 @@ const app = express();
 app.use("/authors", authorsRouter);
 app.use("/books", booksRouter);
 
-const PORT = process.env.PORT;
+const PORT = parseInt(process.env.PORT) || 3000;
 
-switch (typeof PORT) {
-  case "number":
-    app.listen(PORT, () =>
-      console.log(`Server is listening on localhost:${PORT} ...`)
-    );
-    break;
-  case "string":
-    PORT = 3000;
-    app.listen(PORT, () =>
-      console.log(`Server is listening on localhost:${PORT} ...`)
-    );
-    break;
-}
+app.listen(PORT, () =>
+  console.log(`Server is listening on localhost:${PORT} ...`)
+);
