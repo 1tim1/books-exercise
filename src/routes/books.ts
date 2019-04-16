@@ -8,7 +8,7 @@ router.get("/", (_req, res) => res.send(books));
 
 router.get("/:id", (req, res) => {
   const IDBook = books.find(book => {
-    if (book._id == req.params.id) {
+    if (book._id === parseInt(req.params.id)) {
       return book;
     }
   });

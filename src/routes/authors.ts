@@ -9,7 +9,7 @@ router.get("/", (_req, res) => res.send(authors));
 
 router.get("/:id", (req, res) => {
   const IDAuthor = authors.find(author => {
-    if (author._id == req.params.id) {
+    if (author._id === parseInt(req.params.id)) {
       author.books = [];
       books.filter(book => {
         if (author.name === book.author) {
